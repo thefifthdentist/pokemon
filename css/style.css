@@ -11,9 +11,9 @@ nav .brand-logo {
   color: #444;
 }
 
-p {
+/*p {
   line-height: 2rem;
-}
+} */
 
 .sidenav-trigger {
   color: #26a69a;
@@ -50,6 +50,40 @@ p {
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+th {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  max-width: 150px;
+  max-height: 52px;
+}
+
+.title {
+display: block;
+font-size: 1.5em;
+margin-top: 0.83em;
+margin-bottom: 0.83em;
+margin-left: 0;
+margin-right: 0;
+}
+
+#banetteDiv, #gourgeistDiv, #yamaskDiv {
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#point {
+  cursor: pointer;
 }
 
 footer.page-footer {
